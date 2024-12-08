@@ -1,16 +1,16 @@
-# 🏠Educations-Project
+# 🏠Educations-Website
 
-Bu repoda Html, Css ve Bootstrap kullanılarak bir inşaat websitesi tasarlanmıştır.
+In this repo, a construction website was designed using Html, Css and Bootstrap.
 
-# 🚀Özellikler
+# 🚀Features
 
--Responsive Tasarım
+-Responsive Design
 
--Kullanıcı Dostu Arayüz
+-User-Friendly Interface
 
--Dinamik Navbar
+-Dynamic Navbar
 
-# 🛠️Kullanılan Teknolojiler
+# 🛠️Technologies Used
 
 -Html
 
@@ -20,11 +20,11 @@ Bu repoda Html, Css ve Bootstrap kullanılarak bir inşaat websitesi tasarlanmı
 
 -Bootstrap
 
-# Ekran Görüntüsü
+# Screenshot
 
 ![Educations](https://github.com/user-attachments/assets/66fea1db-4742-4eb9-aab1-7969e3542084)
 
 
-# 📨İletişim
+# 📨Contact
 
-Soru, görüş ve önerileriniz için iletişime geçiniz:fratsbht@icloud.com
+Please contact us for your questions, comments and suggestions.:fratsbht@icloud.com
