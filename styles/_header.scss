@@ -1,0 +1,87 @@
+@import "./global";
+
+header {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.7px);
+  -webkit-backdrop-filter: blur(9.7px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  @extend .flex;
+  justify-content: space-between;
+  padding: 27px 17px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  .logo {
+    font-size: 33px;
+    color: $text-color;
+    font-weight: 700;
+    span {
+      color: $main-color;
+    }
+  }
+  .navbar {
+    @extend .flex;
+    gap: 25px;
+    a {
+      font-size: $p-font;
+      font-weight: 500;
+      text-transform: uppercase;
+      display: inline-block;
+      @extend .transition;
+      &:hover {
+        color: $main-color;
+        transform: scale(1.2);
+      }
+    }
+  }
+  .header-right {
+    @extend .flex;
+    a {
+      font-size: 20px;
+      margin-right: 18px;
+      @extend .transition;
+      &:hover {
+        color: $main-color;
+        transform: translateY(-3px);
+      }
+    }
+    a:first-child {
+      font-size: $p-font;
+      margin-right: 20px;
+    }
+  }
+}
+@media (max-width: 1150px) {
+  .navbar.open {
+    display: flex;
+    top: 120px;
+  }
+  .navbar {
+    position: fixed;
+    right: 40px;
+    top: -450px;
+    flex-direction: column;
+    display: none;
+    gap: 40px;
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-right a {
+    display: none;
+  }
+  a:last-child {
+    display: block;
+  }
+}

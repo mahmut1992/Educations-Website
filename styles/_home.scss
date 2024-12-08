@@ -1,0 +1,43 @@
+@import "./variables";
+@import "./global";
+
+#home {
+  position: relative;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/group.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom center;
+  .home-text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    max-width: 70%;
+
+    h5 {
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      color: $main-color;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: $h1-font;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    p {
+      font-size: $p-font;
+      font-weight: 500;
+      color: $gray;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    button {
+      margin-top: 30px;
+    }
+  }
+}
