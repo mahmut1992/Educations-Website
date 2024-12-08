@@ -1,4 +1,4 @@
-# 🏠Emaartech-Building-Project
+# 🏠Educations-Project
 
 Bu repoda Html, Css ve Bootstrap kullanılarak bir inşaat websitesi tasarlanmıştır.
 
